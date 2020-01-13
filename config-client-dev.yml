@@ -13,7 +13,6 @@ spring:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-    type-aliases-package: com.example.provider
     mapper-locations:
       classpath*:mybatis/mapper/*Mapper.xml
 
