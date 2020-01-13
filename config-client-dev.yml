@@ -13,9 +13,9 @@ spring:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-    type-aliases-package: com.example
-    mapper-locations:
-      classpath*:mybatis/mapper/*Mapper.xml
+  type-aliases-package: com.example.test
+  mapper-locations:
+    classpath*:mybatis/mapper/*Mapper.xml
 
 user-config-org:
   name: test_org
