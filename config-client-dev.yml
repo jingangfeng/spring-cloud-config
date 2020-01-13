@@ -19,7 +19,7 @@ mybatis:
 
 user-config-org:
   name: test_org
-  age: 18
+  age: 19
   honours:
     - "CET4"
     - "Engineer's certificate"
